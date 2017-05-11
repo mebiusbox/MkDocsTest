@@ -9,4 +9,56 @@
     </url>
     
 
+    
+        
+    <url>
+     <loc>/math/</loc>
+     <lastmod>2017-05-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/admonition/</loc>
+     <lastmod>2017-05-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/footnotes/</loc>
+     <lastmod>2017-05-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/fontawesome/</loc>
+     <lastmod>2017-05-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/deflist/</loc>
+     <lastmod>2017-05-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/emoji/</loc>
+     <lastmod>2017-05-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/smartsymbols/</loc>
+     <lastmod>2017-05-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/keys/</loc>
+     <lastmod>2017-05-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
 </urlset>
