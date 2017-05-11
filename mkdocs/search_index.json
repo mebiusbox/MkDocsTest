@@ -22,12 +22,12 @@
         }, 
         {
             "location": "/math/", 
-            "text": "\u6570\u5f0f\n\n\n$$\nP\\cdot Q = \\|P\\|\\|Q\\|\\cos\\alpha\n$$\n\n\n\\[\nP\\cdot Q = \\|P\\|\\|Q\\|\\cos\\alpha\n\\]", 
+            "text": "\u6570\u5f0f\n\n\n\n\n\nP\\cdot Q = \\|P\\|\\|Q\\|\\cos\\alpha\n\n\n\n\n\n\\[\nP\\cdot Q = \\|P\\|\\|Q\\|\\cos\\alpha\n\\]", 
             "title": "Math"
         }, 
         {
             "location": "/math/#_1", 
-            "text": "$$\nP\\cdot Q = \\|P\\|\\|Q\\|\\cos\\alpha\n$$  \\[\nP\\cdot Q = \\|P\\|\\|Q\\|\\cos\\alpha\n\\]", 
+            "text": "P\\cdot Q = \\|P\\|\\|Q\\|\\cos\\alpha   \\[\nP\\cdot Q = \\|P\\|\\|Q\\|\\cos\\alpha\n\\]", 
             "title": "\u6570\u5f0f"
         }, 
         {
