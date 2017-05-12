@@ -1,0 +1,37 @@
+site_name: Mkdocs Test
+# theme: material
+theme: readthedocs
+pages:
+  - index.md
+  - extensions:
+    - math.md
+    - admonition.md
+    - footnotes.md
+    - fontawesome.md
+    - deflist.md
+    - emoji.md
+    - smartsymbols.md
+    - keys.md
+
+extra_javascript: 
+  - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"
+  # - http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  # - "js/mathjaxhelper.js"
+  
+extra_css:
+  - "//fonts.googleapis.com/earlyaccess/notosansjp.css"
+  - "//fonts.googleapis.com/css?family=Open+Sans:600,800"
+  - "css/extra.css"
+  - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+
+markdown_extensions:
+  # - mdx_math
+  - mdx_unimoji
+  - admonition
+  - footnotes
+  - fontawesome_markdown
+  - def_list
+  - pymdownx.smartsymbols
+  - pymdownx.keys
+  #- pymdownx.emoji
+     #emoji_generator: !!python/name:pymdownx.emoji.to_svg
