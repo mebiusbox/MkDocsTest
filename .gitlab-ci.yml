@@ -1,0 +1,11 @@
+stages:
+  - deploy
+
+deploy_job:
+  stage: test
+  script:
+    - pip install mkdocs
+    - pip install mkdocs-material python-markdown-math fontawesome_markdown mdx_unimoji pymdown-extensions
+    - mkdocs build
+  tags:
+    - master
