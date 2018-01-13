@@ -1,0 +1,139 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\n1\n2\n3\n4\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome-to-mkdocs", 
+            "text": "For full documentation visit  mkdocs.org .", 
+            "title": "Welcome to MkDocs"
+        }, 
+        {
+            "location": "/#commands", 
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
+            "title": "Commands"
+        }, 
+        {
+            "location": "/#project-layout", 
+            "text": "1\n2\n3\n4 mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Project layout"
+        }, 
+        {
+            "location": "/math/", 
+            "text": "\u6570\u5f0f\n\n\n\n\n\nP\\cdot Q = \\|P\\|\\|Q\\|\\cos\\alpha \\tag{1}\n\n\n\n\n\n\n\n\nP\\cdot Q = \\|P\\|\\|Q\\|\\cos\\alpha\n\n\n\n\n\n\u3066\u3059\u3068 $P\\cdot Q = |P||Q|\\cos\\alpha$\uff0e\n\n\n$$\n\\text{$a=1$}\n$$\n\n\n\n\n\n\\begin{cases}\na = 1 && \\text{$a=1$} \\\\[2ex]\nb = 0 && \\text{if $a=0$}\n\\end{cases}\n\n\n\n\n\n$$\n\n\\begin{cases}\na = 1 && a=1 \\\\[2ex]\nv = 0 && \\text{if $a=0$}\n\\end{cases}\n\n$$\n\n\n\n\n\naaaa", 
+            "title": "\u6570\u5f0f"
+        }, 
+        {
+            "location": "/math/#_1", 
+            "text": "P\\cdot Q = \\|P\\|\\|Q\\|\\cos\\alpha \\tag{1}    \nP\\cdot Q = \\|P\\|\\|Q\\|\\cos\\alpha   \u3066\u3059\u3068 $P\\cdot Q = |P||Q|\\cos\\alpha$\uff0e  $$\n\\text{$a=1$}\n$$   \n\\begin{cases}\na = 1 && \\text{$a=1$} \\\\[2ex]\nb = 0 && \\text{if $a=0$}\n\\end{cases}   $$ \\begin{cases}\na = 1 && a=1 \\\\[2ex]\nv = 0 && \\text{if $a=0$}\n\\end{cases} \n$$   \naaaa", 
+            "title": "\u6570\u5f0f"
+        }, 
+        {
+            "location": "/admonition/", 
+            "text": "\u8b66\u544a\u6587\n\n\n\n\nNote\n\n\n\u3053\u308c\u306f\u30ce\u30fc\u30c8\u3067\u3059\u3002\n\n\n\n\n\n\nTip\n\n\n\u30d2\u30f3\u30c8\u3067\u3059\u3002\n\n\n\n\n\n\nWarning\n\n\n\u3053\u308c\u306f\u8b66\u544a\u3067\u3059\u3002\n\n\n\n\n\n\nDanger\n\n\n\u3053\u308c\u306f\u5371\u967a\u3067\u3059\n\n\n\n\n\n\nSuccess\n\n\n\u3053\u308c\u306f\u6210\u529f\u3067\u3059\u3002\n\n\n\n\n\n\nFailure\n\n\n\u3053\u308c\u306f\u5931\u6557\u3067\u3059\u3002\n\n\n\n\n\n\nBug\n\n\n\u3053\u308c\u306f\u30d0\u30b0\u3067\u3059\u3002\n\n\n\n\n\n\nSummary\n\n\n\u3053\u308c\u306f\u6982\u8981\u3067\u3059\u3002", 
+            "title": "\u8b66\u544a\u6587"
+        }, 
+        {
+            "location": "/admonition/#_1", 
+            "text": "Note  \u3053\u308c\u306f\u30ce\u30fc\u30c8\u3067\u3059\u3002    Tip  \u30d2\u30f3\u30c8\u3067\u3059\u3002    Warning  \u3053\u308c\u306f\u8b66\u544a\u3067\u3059\u3002    Danger  \u3053\u308c\u306f\u5371\u967a\u3067\u3059    Success  \u3053\u308c\u306f\u6210\u529f\u3067\u3059\u3002    Failure  \u3053\u308c\u306f\u5931\u6557\u3067\u3059\u3002    Bug  \u3053\u308c\u306f\u30d0\u30b0\u3067\u3059\u3002    Summary  \u3053\u308c\u306f\u6982\u8981\u3067\u3059\u3002", 
+            "title": "\u8b66\u544a\u6587"
+        }, 
+        {
+            "location": "/footnotes/", 
+            "text": "\u6ce8\u91c8\n\n\nMkdocs \u3068\u306f\u9759\u7684\u30b5\u30a4\u30c8\u30b8\u30a7\u30cd\u30ec\u30fc\u30bf\u3067\u3059\u3002\n\u30b3\u30f3\u30c6\u30f3\u30c4\u306f\u57fa\u672c\u7684\u306b markdown\n1\n \u5f62\u5f0f\u3067\u8a18\u8ff0\u3057\u305f\u30bd\u30fc\u30b9\u30d5\u30a1\u30a4\u30eb\u306b\u306a\u308a\u307e\u3059\u3002\n\n\n\n\n\n\n\n\n\n\n\u6587\u66f8\u3092\u8a18\u8ff0\u3059\u308b\u305f\u3081\u306e\u8efd\u91cf\u30de\u30fc\u30af\u30a2\u30c3\u30d7\u8a00\u8a9e\u306e\u3072\u3068\u3064", 
+            "title": "\u6ce8\u91c8"
+        }, 
+        {
+            "location": "/footnotes/#_1", 
+            "text": "Mkdocs \u3068\u306f\u9759\u7684\u30b5\u30a4\u30c8\u30b8\u30a7\u30cd\u30ec\u30fc\u30bf\u3067\u3059\u3002\n\u30b3\u30f3\u30c6\u30f3\u30c4\u306f\u57fa\u672c\u7684\u306b markdown 1  \u5f62\u5f0f\u3067\u8a18\u8ff0\u3057\u305f\u30bd\u30fc\u30b9\u30d5\u30a1\u30a4\u30eb\u306b\u306a\u308a\u307e\u3059\u3002      \u6587\u66f8\u3092\u8a18\u8ff0\u3059\u308b\u305f\u3081\u306e\u8efd\u91cf\u30de\u30fc\u30af\u30a2\u30c3\u30d7\u8a00\u8a9e\u306e\u3072\u3068\u3064", 
+            "title": "\u6ce8\u91c8"
+        }, 
+        {
+            "location": "/fontawesome/", 
+            "text": "Font Awesome\n\n\n \nMkDocs", 
+            "title": "Font Awesome"
+        }, 
+        {
+            "location": "/fontawesome/#font-awesome", 
+            "text": "MkDocs", 
+            "title": "Font Awesome"
+        }, 
+        {
+            "location": "/deflist/", 
+            "text": "\u5b9a\u7fa9\u30ea\u30b9\u30c8\n\n\n\n\n\u5b9a\u7fa9\u8a9e\n\n\n\u3053\u3053\u306b\u8aac\u660e\u3092\u66f8\u304d\u307e\u3059", 
+            "title": "\u5b9a\u7fa9\u30ea\u30b9\u30c8"
+        }, 
+        {
+            "location": "/deflist/#_1", 
+            "text": "\u5b9a\u7fa9\u8a9e  \u3053\u3053\u306b\u8aac\u660e\u3092\u66f8\u304d\u307e\u3059", 
+            "title": "\u5b9a\u7fa9\u30ea\u30b9\u30c8"
+        }, 
+        {
+            "location": "/emoji/", 
+            "text": "\u7d75\u6587\u5b57\n\n\n\u3053\u3053\u306b \\:smile: \u3068\u8a18\u8ff0\u3059\u308b\u3068 :smile: \u306b\u306a\u308a\u307e\u3059\n\n\n\u3053\u3053\u306b \n;)\n \u3068\u8a18\u8ff0\u3059\u308b\u3068 \n\ud83d\ude09\n \u306b\u306a\u308a\u307e\u3059\n\n\n\ud83d\ude09", 
+            "title": "\u7d75\u6587\u5b57"
+        }, 
+        {
+            "location": "/emoji/#_1", 
+            "text": "\u3053\u3053\u306b \\:smile: \u3068\u8a18\u8ff0\u3059\u308b\u3068 :smile: \u306b\u306a\u308a\u307e\u3059  \u3053\u3053\u306b  ;)  \u3068\u8a18\u8ff0\u3059\u308b\u3068  \ud83d\ude09  \u306b\u306a\u308a\u307e\u3059  \ud83d\ude09", 
+            "title": "\u7d75\u6587\u5b57"
+        }, 
+        {
+            "location": "/smartsymbols/", 
+            "text": "SmartSymbols\n\n\n\n\n(tm)\n : \n\n\n(c)\n : \n\n\n(r)\n : \n\n\nc/o\n : \n\n\n+/-\n : \n\n\n--\n : \n\n\n--\n : \n\n\n--\n : \n\n\n=/=\n : \n\n\n1.4, etc.\n : 1.4, etc.\n\n\n1st 2nd etc.\n : 1\nst\n 2\nnd\n etc.", 
+            "title": "SmartSymbols"
+        }, 
+        {
+            "location": "/smartsymbols/#smartsymbols", 
+            "text": "(tm)  :   (c)  :   (r)  :   c/o  :   +/-  :   --  :   --  :   --  :   =/=  :   1.4, etc.  : 1.4, etc.  1st 2nd etc.  : 1 st  2 nd  etc.", 
+            "title": "SmartSymbols"
+        }, 
+        {
+            "location": "/keys/", 
+            "text": "Keys\n\n\n++ctrl+alt+delete++\n \u3068\u8a18\u8ff0\u3059\u308b\u3068 \nCtrl\n+\nAlt\n+\nDel\n \u3068\u8868\u793a\u3055\u308c\u307e\u3059\u3002", 
+            "title": "Keys"
+        }, 
+        {
+            "location": "/keys/#keys", 
+            "text": "++ctrl+alt+delete++  \u3068\u8a18\u8ff0\u3059\u308b\u3068  Ctrl + Alt + Del  \u3068\u8868\u793a\u3055\u308c\u307e\u3059\u3002", 
+            "title": "Keys"
+        }, 
+        {
+            "location": "/codehilite/", 
+            "text": "\u30b3\u30fc\u30c9\u30cf\u30a4\u30e9\u30a4\u30c8\n\n\n1\n2\n3\n4\n#include\n \niostream\n\n\nvoid\n \nmain\n()\n \n{\n\n  \nstd\n::\ncout\n \n \nHello world!\n \n \nstd\n::\nendl;\n\n\n}", 
+            "title": "\u30b3\u30fc\u30c9\u30cf\u30a4\u30e9\u30a4\u30c8"
+        }, 
+        {
+            "location": "/codehilite/#_1", 
+            "text": "1\n2\n3\n4 #include   iostream  void   main ()   { \n   std :: cout     Hello world!     std :: endl;  }", 
+            "title": "\u30b3\u30fc\u30c9\u30cf\u30a4\u30e9\u30a4\u30c8"
+        }, 
+        {
+            "location": "/mkdocs/", 
+            "text": "MkDocs\u306b\u3088\u308b\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\u4f5c\u6210\n\n\n \u306f\u3058\u3081\u306b\n\n\nmkdocs \u306f \u9759\u7684\u30b5\u30a4\u30c8\u30b8\u30a7\u30cd\u30ec\u30fc\u30bf\u3067\u3059\u3002\u30b3\u30f3\u30c6\u30f3\u30c4\u306f\u57fa\u672c\u7684\u306b markdown \u5f62\u5f0f\u3067\u8a18\u8ff0\u3057\u305f\u30bd\u30fc\u30b9\u30d5\u30a1\u30a4\u30eb\u306b\u306a\u308a\u307e\u3059\u3002\u307e\u305fHTML\u5f62\u5f0f\u306e\u30d5\u30a1\u30a4\u30eb\u3092\u4f7f\u3046\u3053\u3068\u3082\u51fa\u6765\u307e\u3059\u3002\u3053\u306e\u8a18\u4e8b\u3067\u306f Windows \u3067\u500b\u4eba\u7684\u306a\u6700\u4f4e\u9650\u306e\u4f5c\u6210\u74b0\u5883\u3092\u307e\u3068\u3081\u307e\u3057\u305f\u3002\n\n\n mkdocs \u306e\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\n\n\npython \u3092\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u307e\u3059\u30022.x \u7cfb\u3067\u3082 3.x \u7cfb\u3067\u3082\u3069\u3061\u3089\u3067\u3082\u69cb\u3044\u307e\u305b\u3093\u3002\u3061\u306a\u307f\u306b\u79c1\u306f 2.7.11 \u3067\u78ba\u8a8d\u3057\u3066\u3044\u307e\u3059\u3002\n\n\n\u6b21\u306b pip \u3092\u4f7f\u3063\u3066 mkdocs \u3092\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u307e\u3059\u3002\n\n\n1\npip install mkdocs\n\n\n\n\n\n\n \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u306e\u4f5c\u6210\n\n\n\u5b9f\u884c\u306b\u5fc5\u8981\u306a\u6700\u4f4e\u9650\u306e\u30d5\u30a9\u30eb\u30c0\u3068\u30d5\u30a1\u30a4\u30eb\u3092\u4f5c\u6210\u3059\u308b\u30b3\u30de\u30f3\u30c9\u304c\u7528\u610f\u3055\u308c\u3066\u3044\u307e\u3059\u3002\u4f8b\u3048\u3070 test \u3068\u3044\u3046\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u3092\u4f5c\u6210\u3059\u308b\u5834\u5408\u306f\u4ee5\u4e0b\u306e\u30b3\u30de\u30f3\u30c9\u3092\u5b9f\u884c\u3057\u307e\u3059\u3002\n\n\n1\nmkdocs new test\n\n\n\n\n\n\n\u5b9f\u884c\u3057\u305f\u30ab\u30ec\u30f3\u30c8\u30d5\u30a9\u30eb\u30c0\u306b test \u3068\u3044\u3046\u30d5\u30a9\u30eb\u30c0\u304c\u4f5c\u3089\u308c\u3001\u305d\u306e\u4e2d\u306b\u3082\u521d\u671f\u30d5\u30a1\u30a4\u30eb\u304c\u4f5c\u6210\u3055\u308c\u307e\u3059\u3002\u4eca\u5f8c\u3001mkdocs \u306e\u30b3\u30de\u30f3\u30c9\u3092\u5b9f\u884c\u3059\u308b\u5834\u5408\u306f \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30d5\u30a9\u30eb\u30c0\uff08test\uff09\u306b\u4f5c\u696d\u30c7\u30a3\u30ec\u30af\u30c8\u30ea\u306b\u3057\u3066\u304a\u304d\u307e\u3059\u3002\n\n\n\u30b3\u30f3\u30c6\u30f3\u30c4\u306e\u30bd\u30fc\u30b9\u30d5\u30a1\u30a4\u30eb\u306f \ndocs\n \u30d5\u30a9\u30eb\u30c0\u306b\u5165\u308c\u307e\u3059\u3002\uff08\u8a2d\u5b9a\u3067\u5225\u306e\u30d5\u30a9\u30eb\u30c0\u306b\u5909\u66f4\u3059\u308b\u3053\u3068\u304c\u51fa\u6765\u307e\u3059\uff09", 
+            "title": "MkDocs\u306b\u3088\u308b\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\u4f5c\u6210"
+        }, 
+        {
+            "location": "/mkdocs/#mkdocs", 
+            "text": "", 
+            "title": "MkDocs\u306b\u3088\u308b\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\u4f5c\u6210"
+        }, 
+        {
+            "location": "/mkdocs/#_1", 
+            "text": "mkdocs \u306f \u9759\u7684\u30b5\u30a4\u30c8\u30b8\u30a7\u30cd\u30ec\u30fc\u30bf\u3067\u3059\u3002\u30b3\u30f3\u30c6\u30f3\u30c4\u306f\u57fa\u672c\u7684\u306b markdown \u5f62\u5f0f\u3067\u8a18\u8ff0\u3057\u305f\u30bd\u30fc\u30b9\u30d5\u30a1\u30a4\u30eb\u306b\u306a\u308a\u307e\u3059\u3002\u307e\u305fHTML\u5f62\u5f0f\u306e\u30d5\u30a1\u30a4\u30eb\u3092\u4f7f\u3046\u3053\u3068\u3082\u51fa\u6765\u307e\u3059\u3002\u3053\u306e\u8a18\u4e8b\u3067\u306f Windows \u3067\u500b\u4eba\u7684\u306a\u6700\u4f4e\u9650\u306e\u4f5c\u6210\u74b0\u5883\u3092\u307e\u3068\u3081\u307e\u3057\u305f\u3002", 
+            "title": " \u306f\u3058\u3081\u306b"
+        }, 
+        {
+            "location": "/mkdocs/#mkdocs_1", 
+            "text": "python \u3092\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u307e\u3059\u30022.x \u7cfb\u3067\u3082 3.x \u7cfb\u3067\u3082\u3069\u3061\u3089\u3067\u3082\u69cb\u3044\u307e\u305b\u3093\u3002\u3061\u306a\u307f\u306b\u79c1\u306f 2.7.11 \u3067\u78ba\u8a8d\u3057\u3066\u3044\u307e\u3059\u3002  \u6b21\u306b pip \u3092\u4f7f\u3063\u3066 mkdocs \u3092\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u307e\u3059\u3002  1 pip install mkdocs", 
+            "title": " mkdocs \u306e\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb"
+        }, 
+        {
+            "location": "/mkdocs/#_2", 
+            "text": "\u5b9f\u884c\u306b\u5fc5\u8981\u306a\u6700\u4f4e\u9650\u306e\u30d5\u30a9\u30eb\u30c0\u3068\u30d5\u30a1\u30a4\u30eb\u3092\u4f5c\u6210\u3059\u308b\u30b3\u30de\u30f3\u30c9\u304c\u7528\u610f\u3055\u308c\u3066\u3044\u307e\u3059\u3002\u4f8b\u3048\u3070 test \u3068\u3044\u3046\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u3092\u4f5c\u6210\u3059\u308b\u5834\u5408\u306f\u4ee5\u4e0b\u306e\u30b3\u30de\u30f3\u30c9\u3092\u5b9f\u884c\u3057\u307e\u3059\u3002  1 mkdocs new test   \u5b9f\u884c\u3057\u305f\u30ab\u30ec\u30f3\u30c8\u30d5\u30a9\u30eb\u30c0\u306b test \u3068\u3044\u3046\u30d5\u30a9\u30eb\u30c0\u304c\u4f5c\u3089\u308c\u3001\u305d\u306e\u4e2d\u306b\u3082\u521d\u671f\u30d5\u30a1\u30a4\u30eb\u304c\u4f5c\u6210\u3055\u308c\u307e\u3059\u3002\u4eca\u5f8c\u3001mkdocs \u306e\u30b3\u30de\u30f3\u30c9\u3092\u5b9f\u884c\u3059\u308b\u5834\u5408\u306f \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30d5\u30a9\u30eb\u30c0\uff08test\uff09\u306b\u4f5c\u696d\u30c7\u30a3\u30ec\u30af\u30c8\u30ea\u306b\u3057\u3066\u304a\u304d\u307e\u3059\u3002  \u30b3\u30f3\u30c6\u30f3\u30c4\u306e\u30bd\u30fc\u30b9\u30d5\u30a1\u30a4\u30eb\u306f  docs  \u30d5\u30a9\u30eb\u30c0\u306b\u5165\u308c\u307e\u3059\u3002\uff08\u8a2d\u5b9a\u3067\u5225\u306e\u30d5\u30a9\u30eb\u30c0\u306b\u5909\u66f4\u3059\u308b\u3053\u3068\u304c\u51fa\u6765\u307e\u3059\uff09", 
+            "title": " \u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u306e\u4f5c\u6210"
+        }
+    ]
+}
