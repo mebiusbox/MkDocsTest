@@ -13,3 +13,36 @@ body {
 .wy-menu-vertical span {
   color: #ff0;
 }
+
+.md-typeset h1 {
+  /*font-size: 24pt;*/
+  font-weight: bold;
+  color: #000;
+  border-bottom: solid 2px #f18b21;
+  padding-bottom: 5px;
+}
+.md-typeset h2 {
+  border-bottom: 1px dotted #888;
+}
+.md-typeset pre {
+  color: #f8f8f2;
+}
+.md-typeset .codehilitetable {
+  margin-left:-20px;
+  margin-right: -20px;
+  border-radius: 0;
+}
+.md-typeset .codehilitetable .linenodiv {
+  background-color: #222 !important;
+}
+.md-typeset .codehilitetable .linenodiv pre {
+  background-color: #222 !important;
+  color: #aaa;
+  margin: 0;
+}
+.md-typeset .codehilitetable .md-clipboard:before {
+  color: rgba(240,240,240,.8);
+}
+.md-typeset .codehilitetable .md-clipboard:hover:before {
+  color: rgba(102,217,224,1);
+}
