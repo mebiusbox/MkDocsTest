@@ -1,8 +1,8 @@
 site_name: Mkdocs Test
 theme:
   name: material
-  custom_dir: 'theme'
-  language: 'ja'
+  # custom_dir: 'theme'
+  # language: 'ja'
 #   feature:
 #     tabs: true
 # theme: readthedocs
@@ -22,12 +22,12 @@ nav:
 
 extra:
   search:
-    language: 'jp'
+    language: 'ja'
 
-# extra_javascript: 
-#   - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"
+extra_javascript: 
+    - "js/extra.js"
+    - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"
   # - http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-  # - "js/mathjaxhelper.js"
   
 extra_css:
   - "//fonts.googleapis.com/earlyaccess/notosansjp.css"
@@ -37,7 +37,7 @@ extra_css:
 
 markdown_extensions:
   - mdx_math
-  - mdx_unimoji
+  # - mdx_unimoji
   - admonition
   - footnotes
   - fontawesome_markdown
@@ -49,5 +49,6 @@ markdown_extensions:
       noclasses: true
       pygments_style: monokai
       linenums: true
-  #- pymdownx.emoji
-     #emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+      # emoji_generator: !!python/name:pymdownx.emoji.to_alt
