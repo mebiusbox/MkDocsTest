@@ -2,18 +2,6 @@ body {
   font-family: "Noto Sans JP";
 }
 
-.wy-menu-vertical a, .wy-menu-vertical .subnav a {
-  color: white;
-}
-
-.wy-menu-vertical * li.current a {
-  color: black;
-}
-
-.wy-menu-vertical span {
-  color: #ff0;
-}
-
 .md-typeset h1 {
   /*font-size: 24pt;*/
   font-weight: bold;
@@ -27,22 +15,26 @@ body {
 .md-typeset pre {
   color: #f8f8f2;
 }
-.md-typeset .codehilitetable {
+.md-typeset .highlighttable {
   margin-left:-20px;
   margin-right: -20px;
   border-radius: 0;
 }
-.md-typeset .codehilitetable .linenodiv {
-  background-color: #222 !important;
+
+.md-typeset .highlighttable > * {
+  --md-code-bg-color: #222 !important;
+  --md-code-fg-color: #fefefe !important;
 }
-.md-typeset .codehilitetable .linenodiv pre {
+.md-typeset .highlighttable .linenos .linenodiv pre span {
   background-color: #222 !important;
-  color: #aaa;
+  color: #fefefe !important;
   margin: 0;
 }
-.md-typeset .codehilitetable .md-clipboard:before {
+.md-typeset .highlighttable .md-clipboard:before,
+.md-typeset .highlighttable .md-clipboard:after {
   color: rgba(240,240,240,.8);
 }
-.md-typeset .codehilitetable .md-clipboard:hover:before {
+.md-typeset .highlighttable .md-clipboard:hover:before,
+.md-typeset .highlighttable .md-clipboard:hover:after {
   color: rgba(102,217,224,1);
 }

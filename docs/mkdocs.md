@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # MkDocsによるドキュメント作成
 
 ## <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> はじめに

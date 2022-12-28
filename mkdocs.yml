@@ -1,11 +1,16 @@
 site_name: Mkdocs Test
+copyright: "&copy; 2022 mebiusbox"
+repo_url: https://github.com/mebiusbox/MkDocsTest
+repo_name: mebiusbox/MkDocsTest
 theme:
   name: material
-  # custom_dir: 'theme'
-  # language: 'ja'
-#   feature:
-#     tabs: true
-# theme: readthedocs
+  feature:
+    - content.code.annotate
+    - tabs: true
+  icon:
+    repo: fontawesome/brands/github
+    # repo: fontawesome/brands/gitlab
+  custom_dir: overrides
 nav:
   - Home: index.md
   - extensions:
@@ -20,9 +25,18 @@ nav:
     - codehilite.md
     - mkdocs.md
 
-extra:
+plugins:
   search:
-    language: 'ja'
+    lang: 'ja'
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/mebiusbox2
+      name: mebiusbox2 on Twitter
+    - icon: fontawesome/brands/github
+      link: https://github.com/mebiusbox/MkDocsTest
+  generator: false
 
 extra_javascript: 
     - "js/extra.js"
@@ -37,18 +51,18 @@ extra_css:
 
 markdown_extensions:
   - mdx_math
-  # - mdx_unimoji
   - admonition
   - footnotes
   - fontawesome_markdown
   - def_list
   - pymdownx.smartsymbols
   - pymdownx.keys
-  - codehilite:
+  - pymdownx.highlight:
       use_pygments: true
       noclasses: true
       pygments_style: monokai
       linenums: true
+  - pymdownx.superfences
   - pymdownx.emoji:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
       # emoji_generator: !!python/name:pymdownx.emoji.to_alt
