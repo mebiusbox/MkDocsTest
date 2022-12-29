@@ -1,17 +1,21 @@
-# Welcome to MkDocs
+---
+comments: true
+---
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+# MkDocsへようこそ
 
-## Commands
+完全なドキュメントは[mkdocs.org](http://mkdocs.org)にあります.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+## コマンド
 
-## Project layout
+* `mkdocs new [dir-name]` - 新しいプロジェクトを作成.
+* `mkdocs serve` - 自動でリロードするサーバを起動.
+* `mkdocs build` - サイトをビルド.
+* `mkdocs help` - ヘルプを表示.
 
-    mkdocs.yml    # The configuration file.
+## レイアウト
+
+    mkdocs.yml    # 設定ファイル
     docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+        index.md  # ホームページ
+        ...       # それ以外のページ

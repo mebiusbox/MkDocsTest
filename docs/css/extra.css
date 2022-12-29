@@ -1,14 +1,18 @@
-body {
-  font-family: "Noto Sans JP";
+[data-md-color-scheme=default] {
+  --md-default-fg-color--light: #222 !important;
 }
-
+[data-md-color-scheme=slate] {
+  --md-default-fg-color--light: #fefefe !important;
+  --md-typeset-a-color: #fc0 !important;
+}
+  
 .md-typeset h1 {
   /*font-size: 24pt;*/
   font-weight: bold;
-  color: #000;
   border-bottom: solid 2px #f18b21;
   padding-bottom: 5px;
 }
+
 .md-typeset h2 {
   border-bottom: 1px dotted #888;
 }

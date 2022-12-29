@@ -4,32 +4,63 @@ repo_url: https://github.com/mebiusbox/MkDocsTest
 repo_name: mebiusbox/MkDocsTest
 theme:
   name: material
-  feature:
+  font:
+    text: Noto Sans JP
+    code: Inconsolata
+  features:
     - content.code.annotate
-    - tabs: true
+    - navigation.tabs
+    - navigation.tabs.sticky
+    # - navigation.sections
+    # - navigation.expand
+    - navigation.top
+    - header.autohide
   icon:
     repo: fontawesome/brands/github
     # repo: fontawesome/brands/gitlab
   custom_dir: overrides
+  palette:
+    - scheme: default
+      primary: pink
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 nav:
-  - Home: index.md
-  - extensions:
-    - math.md
-    - admonition.md
-    - footnotes.md
-    - fontawesome.md
-    - deflist.md
-    - emoji.md
-    - smartsymbols.md
-    - keys.md
-    - codehilite.md
-    - mkdocs.md
+  - 初期画面: index.md
+  - introduction.md
+  - material.md
+  - section1:
+      section1-1:
+        section1-1-1:
+          sample_page.md
+      section1-2:
+        section1-2-1:
+          sample_page.md
+  - extentions.md
 
 plugins:
   search:
     lang: 'ja'
 
 extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: Japanese
+      link: /
+      lang: ja
+  consent:
+    title: Cookie consent
+    description:
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/mebiusbox2
@@ -39,30 +70,46 @@ extra:
   generator: false
 
 extra_javascript: 
-    - "js/extra.js"
-    - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"
-  # - http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  - js/extra.js
+  - js/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   
 extra_css:
-  - "//fonts.googleapis.com/earlyaccess/notosansjp.css"
-  - "//fonts.googleapis.com/css?family=Open+Sans:600,800"
   - "css/extra.css"
   - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
 
 markdown_extensions:
-  - mdx_math
+  - toc:
+      permalink: true
   - admonition
   - footnotes
-  - fontawesome_markdown
   - def_list
+  - attr_list
+  - fontawesome_markdown
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.smartsymbols
   - pymdownx.keys
   - pymdownx.highlight:
       use_pygments: true
       noclasses: true
       pygments_style: monokai
-      linenums: true
-  - pymdownx.superfences
+      # linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
-      # emoji_generator: !!python/name:pymdownx.emoji.to_alt
+      # options:
+      #   custom_icons:
+      #     - overrides/.icons
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
