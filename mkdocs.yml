@@ -107,7 +107,7 @@ markdown_extensions:
       #   custom_icons:
       #     - overrides/.icons
   - pymdownx.tasklist:
-      custom_chweckbox: true
+      custom_checkbox: true
       clickable_checkbox: true
   - pymdownx.tabbed:
       alternate_style: true
