@@ -16,13 +16,27 @@
 .md-typeset h2 {
   border-bottom: 1px dotted #888;
 }
+
+[data-md-color-scheme=slate] .md-typeset h2 {
+  color: #fc0;
+  border-bottom: 1px dotted #888;
+}
+
+.md-typeset h3:before {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f0a9";
+  margin-right: 5px;
+}
+
+/* [data-md-color-scheme=slate] .md-typeset h3 {
+} */
+
 .md-typeset pre {
   color: #f8f8f2;
 }
-.md-typeset .highlighttable {
-  margin-left:-20px;
-  margin-right: -20px;
-  border-radius: 0;
+.md-typeset .highlighttable .linenos .linenodiv pre {
+  line-height: 15pt;
 }
 
 .md-typeset .highlighttable > * {
@@ -32,7 +46,6 @@
 .md-typeset .highlighttable .linenos .linenodiv pre span {
   background-color: #222 !important;
   color: #fefefe !important;
-  margin: 0;
 }
 .md-typeset .highlighttable .md-clipboard:before,
 .md-typeset .highlighttable .md-clipboard:after {

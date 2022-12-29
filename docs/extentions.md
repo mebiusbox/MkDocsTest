@@ -379,6 +379,49 @@ void main() {
 }
 ```
 
+コード番号の表示をブロックごとに変えたい場合は `linenums` を使います．
+
+```
+ ```c++ linenums="1"
+ #include <iostream>
+ void main() {
+   std::cout << "Hello world!" << std::endl;
+ }
+ ```
+ ```c++ linenums="0"
+ #include <iostream>
+ void main() {
+   std::cout << "Hello world!" << std::endl;
+ }
+ ```
+```
+
+```c++ linenums="1"
+#include <iostream>
+void main() {
+  std::cout << "Hello world!" << std::endl;
+}
+```
+
+```c++ linenums="0"
+#include <iostream>
+void main() {
+  std::cout << "Hello world!" << std::endl;
+}
+```
+
+また、個別に行をハイライト表示できます．`hl_lines`で行を指定します．
+
+```c++ hl_lines="2 3"
+#include <iostream>
+void main() {
+  std::cout << "Hello world!" << std::endl;
+}
+```
+
+!!! Warning
+    use_classesと相性が悪いようです．
+
 
 ## コードフェンス
 
@@ -409,7 +452,7 @@ markdown_extensions:
       - pymdownx.superfences
     ```
 
-また、コードフェンスの機能を使ってMermaidで作図することができます．
+また、コードフェンスの機能を使ってMermaidで作図できます．
 
 ```yml
 markdown_extensions:

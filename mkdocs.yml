@@ -70,7 +70,6 @@ extra:
   generator: false
 
 extra_javascript: 
-  - js/extra.js
   - js/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
@@ -95,7 +94,7 @@ markdown_extensions:
       use_pygments: true
       noclasses: true
       pygments_style: monokai
-      # linenums: true
+      linenums: true
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -108,7 +107,7 @@ markdown_extensions:
       #   custom_icons:
       #     - overrides/.icons
   - pymdownx.tasklist:
-      custom_checkbox: true
+      custom_chweckbox: true
       clickable_checkbox: true
   - pymdownx.tabbed:
       alternate_style: true
