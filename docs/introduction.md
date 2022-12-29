@@ -1,13 +1,13 @@
 # はじめに
 
-## MkDocsとは
+## <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> MkDocsとは
 
 mkdocs は静的サイトジェネレータです。コンテンツは基本的に markdown 形式で記述したソースファイルになります。またHTML形式のファイルを使うこともできます。この記事では Windows で個人的な最低限の作成環境をまとめました。
 
 - [MkDocs](http://www.mkdocs.org/)
 
 
-## インストール
+## <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> インストール
 
 まずは、python をインストールします．次に pip を使って mkdocs をインストールします。
 
@@ -24,7 +24,6 @@ mkdocs                       1.4.2
 mkdocs-material              8.5.11
 mkdocs-material-extentions   1.1.1
 fontawesome-markdown         0.2.6
-python-markdown-math         0.8
 pymdown-extensions           9.9
 ```
 

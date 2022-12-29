@@ -1,7 +1,12 @@
 # Material for MkDocs
 
 Material for MkDocs は MkDocsのテーマの1つです．
-率直に言って、標準のテーマやreadthedocsもイマイチなので、テーマを自作しないのであればMaterialテーマ一択だと思います．このドキュメントではMaterialテーマを使用することを前提とします．
+率直に言って、標準のテーマやreadthedocsもイマイチなので、テーマを自作しないのであればMaterialテーマ1択だと思います．このドキュメントではMaterialテーマを使用することを前提とします．
+
+```yml
+theme:
+  name: material
+```
 
 ## カラー
 
@@ -82,7 +87,7 @@ extra:
       lang: ja
 ```
 
-検索ボックスの隣に言語を切り替えるボタンが追加されます．各ドキュメントはリンク
+検索ボックスの隣に言語を切り替えるボタンが追加されます．各ドキュメントはリンク先になるように配置すればよいようです．
 
 
 ## ロゴ、ファビコン、ホームページ
@@ -308,7 +313,7 @@ hide:
 ```
 
 
-## Gitリポジトリリンクの設定
+### Gitリポジトリリンクの設定
 
 右上にGitリポジトリのリンクを追加できます．自動でスター数とフォーク数が表示されます．
 
@@ -414,7 +419,7 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
-      - run: pip install mkdocs-material python-markdown-math fontawesome_markdown
+      - run: pip install mkdocs-material fontawesome_markdown
       - run: mkdocs gh-deploy --force
 ```
 

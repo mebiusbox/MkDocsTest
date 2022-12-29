@@ -2,7 +2,7 @@
 
 ## 数式
 
-数式を使うことができます．いくつか設定が必要になります．まず、javascriptファイルを用意します．ここでは `js/mathjax.js` とします．
+数式を使うことができます．いくつか設定が必要になります．まず、javascriptファイルを用意します．ここでは `docs/js/mathjax.js` とします．
 
 ```javascript
 window.MathJax = {
@@ -310,7 +310,15 @@ markdown_extensions:
 
     ```
     markdown_extensions:
-    - fontawesome_markdown
+      - fontawesome_markdown
+    extra_css:
+      - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+    ```
+
+    また、別途インストールする必要があります．
+
+    ```
+    pip install fontawesome_markdown
     ```
 
     ただし、通常の指定方法とは違いますので、注意してください．
@@ -352,6 +360,8 @@ markdown_extensions:
 
 
 ## キーボードキー表示
+
+PCでのキーボード操作を説明するときにキーコードを解りやすく装飾してくれる拡張機能です。ただし、material テーマのみ使えます。使用するには拡張機能リストに `pymdownx.keys` を追加します。
 
 ```yml
 markdown_extensions:
