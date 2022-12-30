@@ -23,7 +23,6 @@ python                       3.9.5
 mkdocs                       1.4.2
 mkdocs-material              8.5.11
 mkdocs-material-extentions   1.1.1
-fontawesome-markdown         0.2.6
 pymdown-extensions           9.9
 ```
 

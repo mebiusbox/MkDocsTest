@@ -419,9 +419,8 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
-      - run: pip install mkdocs-material fontawesome_markdown
+      - run: pip install mkdocs-material
       - run: mkdocs gh-deploy --force
 ```
 
-CIが正常終了すれば、`<username>.github.io/<repository>`に配置されます．`pip install mkdocs-material...` の部分は利用する拡張機能があれば追記する必要があります．
-
+CIが正常終了すれば、`<username>.github.io/<repository>`に配置されます．
