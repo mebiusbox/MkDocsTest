@@ -288,7 +288,7 @@ markdown_extensions:
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 ```
 
 ```
@@ -304,30 +304,6 @@ markdown_extensions:
 :simple-dogecoin:
 :fontawesome-regular-face-laugh-wink:
 :octicons-link-external-16: [MkDocs](http://www.mkdocs.org/)
-
-!!! warning
-    絵文字以外はドキュメント中だと表示されませんでした．オプションでアイコンを追加できる `custom_icons` も試してみましたが、これもダメ．結局、原因はわからないので Fontawsome を使いたい場合はfontawesome_markdown拡張機能が使えます（ただし、こちらの拡張機能はメンテされておらず、警告も出るので将来的には使わない方がいいです）
-
-    ```
-    markdown_extensions:
-      - fontawesome_markdown
-    extra_css:
-      - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
-    ```
-
-    また、別途インストールする必要があります．
-
-    ```
-    pip install fontawesome_markdown
-    ```
-
-    ただし、通常の指定方法とは違いますので、注意してください．
-
-    ```
-    :fa-external-link:
-    ```
-
-    :fa-external-link: [MkDocs](http://www.mkdocs.org/)
 
 
 絵文字は次のように使います．
